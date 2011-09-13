@@ -144,4 +144,4 @@ class Lesmianator(object):
 if __name__ == '__main__':
     poet = Lesmianator()
     poet.load()
-    print poet()
+    print poet().encode('utf-8')
